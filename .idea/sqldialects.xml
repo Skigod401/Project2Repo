@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/project2_template/createtbl.sql" dialect="DB2" />
+    <file url="file://$PROJECT_DIR$/project2_template/droptbl.sql" dialect="DB2" />
+    <file url="file://$PROJECT_DIR$/src/CreateTables.sql" dialect="DB2" />
+    <file url="file://$PROJECT_DIR$/src/DropTables.sql" dialect="DB2" />
+  </component>
+</project>
