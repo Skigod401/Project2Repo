@@ -5,5 +5,7 @@
     <file url="file://$PROJECT_DIR$/project2_template/droptbl.sql" dialect="DB2" />
     <file url="file://$PROJECT_DIR$/src/CreateTables.sql" dialect="DB2" />
     <file url="file://$PROJECT_DIR$/src/DropTables.sql" dialect="DB2" />
+    <file url="file://$PROJECT_DIR$/src/loaddata.sql" dialect="DB2" />
+    <file url="file://$PROJECT_DIR$/src/queriesQ5.sql" dialect="DB2" />
   </component>
 </project>

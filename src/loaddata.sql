@@ -251,7 +251,6 @@ INSERT INTO WorksAt (EmployeeId, StoreID, Since) VALUES
 (9,  2, '2020-09-09'),
 (10, 3, '2019-12-01');
 
-
 -- from the 100 customers (ids), and VINS and StoreIDs
 INSERT INTO Reservation (CustomerId, VIN, PickupStoreID, DropoffStoreID, StartDate, EndDate, PickupTime, DropoffTime, InsurancePolicy, Cost) VALUES
 (1,  '1HGCM82637A004152', 1, 1, '2025-01-05', '2025-01-08', '09:00:00', '09:00:00', 'Basic',         180.00),
@@ -273,7 +272,12 @@ INSERT INTO Reservation (CustomerId, VIN, PickupStoreID, DropoffStoreID, StartDa
 (17, 'WBA3N3C50K0G12345', 6, 3, '2025-08-01', '2025-08-05', '10:00:00', '12:00:00', 'Comprehensive', 440.00),
 (18, 'SBM667Y91LW001234', 7, 7, '2025-08-10', '2025-08-12', '14:00:00', '14:00:00', 'Premium',      1350.00),
 (19, '2HGFC2F51JH503413', 1, 5, '2025-09-01', '2025-09-04', '08:00:00', '10:00:00', 'Basic',         220.00),
+(1,  '1HGCM82637A004152', 1, 1, '2025-02-05', '2025-02-08', '09:00:00', '09:00:00', 'Basic',         400.00),
 (20, '5YJYG1E21LF987654', 4, 4, '2025-09-15', '2025-09-20', '12:00:00', '12:00:00', 'Comprehensive', 490.00);
+
+--Repeat customer
+INSERT INTO Reservation (CustomerId, VIN, PickupStoreID, DropoffStoreID, StartDate, EndDate, PickupTime, DropoffTime, InsurancePolicy, Cost) VALUES
+    (1,  '1HGCM82637A004152', 1, 1, '2025-02-05', '2025-02-08', '09:00:00', '09:00:00', 'Basic',         400.00);
 
 -- reservation add ons from the Reservation IDs and the Add on IDs
 INSERT INTO ReservationAddOn (ReservationId, AddOnId) VALUES
